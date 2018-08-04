@@ -3,6 +3,6 @@
    xmlns:mvvmaspire="clr-namespace:MvvmAspire.Controls;assembly=MvvmAspire"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TestApp.Views.TestPage">
     <Grid>
-       <mvvmaspire:Button Text="Go To Next Page" TextColor="Blue" Command="{Binding GoToNextPageCommand}"/>
+       <mvvmaspire:Button Text="{Binding ButtonName}" TextColor="Blue" Command="{Binding GoToNextPageCommand}"/>
     </Grid>
 </ContentPage>

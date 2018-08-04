@@ -6,9 +6,17 @@ namespace TestApp.ViewModel
     {
         public RelayCommand GoToNextPageCommand { get; set; }
        
+        public string _buttonName;
+        public string ButtonName
+        {
+            get => _buttonName;
+            set =>SetProperty(ref _buttonName, value);
+        }
+
         public TestViewModel()
         {
             GoToNextPageCommand = new RelayCommand(GoToNextPage);
+            ButtonName = "Go To Next Page";
         }
 
         async void GoToNextPage()
