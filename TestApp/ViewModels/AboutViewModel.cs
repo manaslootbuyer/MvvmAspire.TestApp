@@ -12,8 +12,20 @@ namespace TestApp.ViewModel
 {
     public class AboutViewModel : AppViewModel
     {
+
+        public RelayCommand ShowAlertCommand { get; set; }
         public AboutViewModel()
         {
+
+            ShowAlertCommand = new RelayCommand(ShowAlert);
+        }
+
+        async void ShowAlert()
+        {
+            ShowAlertCommand.CanRun = false;
+            await Page.DisplayAlert(null, "This is an alert", "Great!");
+            ShowAlertCommand.CanRun = true;
+
         }
     }
 }

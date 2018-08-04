@@ -1,9 +1,10 @@
-﻿<Properties StartupConfiguration="{A117756D-C736-474A-A748-3AFFA653AC05}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestApp/App.xaml.cs">
+﻿<Properties StartupConfiguration="{D84285BD-B156-4EF0-8B63-33F2C0D1F3B5}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestApp/ViewModels/AboutViewModel.cs">
     <Files>
       <File FileName="TestApp/ViewModels/AppViewModel.cs" Line="1" Column="1" />
-      <File FileName="TestApp/Bootstrap.cs" Line="16" Column="45" />
-      <File FileName="TestApp/App.xaml.cs" Line="17" Column="79" />
+      <File FileName="TestApp/ViewModels/AboutViewModel.cs" Line="26" Column="73" />
+      <File FileName="TestApp/ViewModels/TestViewModel.cs" Line="20" Column="10" />
+      <File FileName="TestApp/Views/AboutPage.xaml" Line="23" Column="104" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

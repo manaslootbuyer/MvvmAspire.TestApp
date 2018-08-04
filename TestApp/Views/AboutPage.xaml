@@ -20,7 +20,14 @@
 
                <StackLayout Orientation="Vertical">
                 <mvvmaspire:Label Text="MvvmAspire.Controls.AnimatedLabel" TextColor="Blue"></mvvmaspire:Label>
-                <mvvmaspire:AnimatedLabel Text="Forgot Password?" TextColor="Black"/>
+                <mvvmaspire:AnimatedLabel Text="Press to show alert"  TextColor="Black">
+
+
+                        <mvvmaspire:AnimatedLabel.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding ShowAlertCommand}" />
+                        </mvvmaspire:AnimatedLabel.GestureRecognizers>
+
+                </mvvmaspire:AnimatedLabel>
         </StackLayout>
 
 
