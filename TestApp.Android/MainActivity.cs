@@ -19,6 +19,12 @@ namespace TestApp.Droid
 
             base.OnCreate(bundle);
 
+            MvvmAspire.Controls.UIHelper.Drawable = typeof(TestApp.Droid.Resource.Drawable);
+            MvvmAspire.Controls.UIHelper.Layout = typeof(Resource.Layout);
+            MvvmAspire.Controls.UIHelper.Id = typeof(Resource.Id);
+            MvvmAspire.Controls.UIHelper.Context = this;
+
+            AppBootstrap.Init();
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());
         }
