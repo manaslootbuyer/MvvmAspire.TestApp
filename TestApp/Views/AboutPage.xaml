@@ -2,10 +2,29 @@
 <ContentPage 
     xmlns="http://xamarin.com/schemas/2014/forms"
      xmlns:mvvmaspire="clr-namespace:MvvmAspire.Controls;assembly=MvvmAspire"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TestApp.Views.AboutPage"  Title="TEST">
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TestApp.Views.AboutPage"  Title="Mvvm Aspire Controls">
 
-    <StackLayout>
-        <mvvmaspire:Label Text="test" TextColor="Blue"></mvvmaspire:Label>
-        <mvvmaspire:Entry Text="test"  TextColor="Blue"/>
+    <ScrollView Padding="20">
+      <StackLayout Spacing="20">
+
+        <StackLayout Orientation="Vertical">
+                <mvvmaspire:Label Text="MvvmAspire.Controls.Label" TextColor="Blue"></mvvmaspire:Label>
+                <mvvmaspire:Label Text="The quick brown fox jumps over the lazy dog" TextColor="Black"></mvvmaspire:Label>
+        </StackLayout>
+
+           <StackLayout Orientation="Vertical">
+                <mvvmaspire:Label Text="MvvmAspire.Controls.Entry" TextColor="Blue"/>
+                <mvvmaspire:Entry Placeholder="Sample Place Holder" TextInputType="Password" IsPassword="true" PlaceholderColor="Gray" TextColor="Black"/>
+        </StackLayout>
+      
+
+               <StackLayout Orientation="Vertical">
+                <mvvmaspire:Label Text="MvvmAspire.Controls.AnimatedLabel" TextColor="Blue"></mvvmaspire:Label>
+                <mvvmaspire:AnimatedLabel Text="Forgot Password?" TextColor="Black"/>
+        </StackLayout>
+
+
     </StackLayout>
+    </ScrollView>
+  
 </ContentPage>

@@ -1,10 +1,12 @@
 ﻿<Properties StartupConfiguration="{D84285BD-B156-4EF0-8B63-33F2C0D1F3B5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestApp.iOS/AppDelegate.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestApp/Views/AboutPage.xaml">
     <Files>
       <File FileName="../../mvvmaspire/MvvmAspire.Droid/Bootstrap.cs" Line="25" Column="1" />
       <File FileName="../../mvvmaspire/MvvmAspire.iOS/Bootstrap.cs" Line="89" Column="1" />
       <File FileName="../../mvvmaspire/MvvmAspire.iOS/DeviceHardware.cs" Line="5" Column="21" />
       <File FileName="TestApp.iOS/AppDelegate.cs" Line="26" Column="7" />
+      <File FileName="TestApp/Views/AboutPage.xaml" Line="5" Column="122" />
+      <File FileName="TestApp/Views/TestPage.xaml" Line="6" Column="48" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
