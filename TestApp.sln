@@ -1,0 +1,59 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp.Android", "TestApp.Android\TestApp.Android.csproj", "{A117756D-C736-474A-A748-3AFFA653AC05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp.iOS", "TestApp.iOS\TestApp.iOS.csproj", "{D84285BD-B156-4EF0-8B63-33F2C0D1F3B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{C2F13E5E-1502-43A9-8F56-652935DA199E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A117756D-C736-474A-A748-3AFFA653AC05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A117756D-C736-474A-A748-3AFFA653AC05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A117756D-C736-474A-A748-3AFFA653AC05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A117756D-C736-474A-A748-3AFFA653AC05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A117756D-C736-474A-A748-3AFFA653AC05}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{A117756D-C736-474A-A748-3AFFA653AC05}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{A117756D-C736-474A-A748-3AFFA653AC05}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{A117756D-C736-474A-A748-3AFFA653AC05}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{A117756D-C736-474A-A748-3AFFA653AC05}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{A117756D-C736-474A-A748-3AFFA653AC05}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{A117756D-C736-474A-A748-3AFFA653AC05}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{A117756D-C736-474A-A748-3AFFA653AC05}.Release|iPhone.Build.0 = Release|Any CPU
+		{D84285BD-B156-4EF0-8B63-33F2C0D1F3B5}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
+		{D84285BD-B156-4EF0-8B63-33F2C0D1F3B5}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
+		{D84285BD-B156-4EF0-8B63-33F2C0D1F3B5}.Release|Any CPU.ActiveCfg = Release|iPhoneSimulator
+		{D84285BD-B156-4EF0-8B63-33F2C0D1F3B5}.Release|Any CPU.Build.0 = Release|iPhoneSimulator
+		{D84285BD-B156-4EF0-8B63-33F2C0D1F3B5}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{D84285BD-B156-4EF0-8B63-33F2C0D1F3B5}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{D84285BD-B156-4EF0-8B63-33F2C0D1F3B5}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{D84285BD-B156-4EF0-8B63-33F2C0D1F3B5}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{D84285BD-B156-4EF0-8B63-33F2C0D1F3B5}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{D84285BD-B156-4EF0-8B63-33F2C0D1F3B5}.Debug|iPhone.Build.0 = Debug|iPhone
+		{D84285BD-B156-4EF0-8B63-33F2C0D1F3B5}.Release|iPhone.ActiveCfg = Release|iPhone
+		{D84285BD-B156-4EF0-8B63-33F2C0D1F3B5}.Release|iPhone.Build.0 = Release|iPhone
+		{C2F13E5E-1502-43A9-8F56-652935DA199E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2F13E5E-1502-43A9-8F56-652935DA199E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2F13E5E-1502-43A9-8F56-652935DA199E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2F13E5E-1502-43A9-8F56-652935DA199E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2F13E5E-1502-43A9-8F56-652935DA199E}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{C2F13E5E-1502-43A9-8F56-652935DA199E}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{C2F13E5E-1502-43A9-8F56-652935DA199E}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{C2F13E5E-1502-43A9-8F56-652935DA199E}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{C2F13E5E-1502-43A9-8F56-652935DA199E}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{C2F13E5E-1502-43A9-8F56-652935DA199E}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{C2F13E5E-1502-43A9-8F56-652935DA199E}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{C2F13E5E-1502-43A9-8F56-652935DA199E}.Release|iPhone.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+	EndGlobalSection
+EndGlobal
