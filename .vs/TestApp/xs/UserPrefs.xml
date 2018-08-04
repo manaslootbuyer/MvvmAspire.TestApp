@@ -1,17 +1,17 @@
-﻿<Properties StartupConfiguration="{A117756D-C736-474A-A748-3AFFA653AC05}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestApp/Views/AboutPage.xaml">
+﻿<Properties StartupConfiguration="{D84285BD-B156-4EF0-8B63-33F2C0D1F3B5}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestApp.iOS/AppDelegate.cs">
     <Files>
-      <File FileName="TestApp.Android/MainActivity.cs" Line="22" Column="67" />
-      <File FileName="TestApp.iOS/AppDelegate.cs" Line="25" Column="10" />
-      <File FileName="TestApp/ViewModels/TestViewModel.cs" Line="17" Column="54" />
-      <File FileName="Source Not Available" />
-      <File FileName="TestApp/ViewModels/AboutViewModel.cs" Line="15" Column="1" />
-      <File FileName="TestApp/Views/AboutPage.xaml" Line="7" Column="3" />
+      <File FileName="../../mvvmaspire/MvvmAspire.Droid/Bootstrap.cs" Line="25" Column="1" />
+      <File FileName="../../mvvmaspire/MvvmAspire.iOS/Bootstrap.cs" Line="89" Column="1" />
+      <File FileName="../../mvvmaspire/MvvmAspire.iOS/DeviceHardware.cs" Line="5" Column="21" />
+      <File FileName="TestApp.iOS/AppDelegate.cs" Line="26" Column="7" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/edriandragneel/Desktop/mvvmaspire/MvvmAspire.Droid/Bootstrap.cs" line="25" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.TestApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.184CA339-52AE-44C8-8BCF-8DC8CD3E4917" />

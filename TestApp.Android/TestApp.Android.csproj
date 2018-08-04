@@ -59,14 +59,12 @@
     <PackageReference Include="Xamarin.Forms">
       <Version>3.1.0.637273</Version>
     </PackageReference>
-    <PackageReference Include="MvvmAspire">
-      <Version>2.0.0</Version>
-    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ExportRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -102,6 +100,14 @@
     <ProjectReference Include="..\TestApp\TestApp.csproj">
       <Project>{C2F13E5E-1502-43A9-8F56-652935DA199E}</Project>
       <Name>TestApp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\mvvmaspire\MvvmAspire\MvvmAspire.csproj">
+      <Project>{1154A328-6611-453A-A335-21C3F1B5AED5}</Project>
+      <Name>MvvmAspire</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\mvvmaspire\MvvmAspire.Droid\MvvmAspire.Droid.csproj">
+      <Project>{563B1A22-5640-4011-AF88-F89F9FA0FE96}</Project>
+      <Name>MvvmAspire.Droid</Name>
     </ProjectReference>
   </ItemGroup>
  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

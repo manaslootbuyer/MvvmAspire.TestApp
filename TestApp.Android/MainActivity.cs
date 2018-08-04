@@ -6,6 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using MvvmAspire;
 
 namespace TestApp.Droid
 {
@@ -25,6 +26,8 @@ namespace TestApp.Droid
             MvvmAspire.Controls.UIHelper.Context = this;
 
             AppBootstrap.Init();
+            Bootstrap.Init(this);
+
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());
         }

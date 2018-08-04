@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
 using Foundation;
+using MvvmAspire;
 using UIKit;
 namespace TestApp.iOS
 {
@@ -23,6 +23,7 @@ namespace TestApp.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             AppBootstrap.Init();
+            Bootstrap.Init();
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);
