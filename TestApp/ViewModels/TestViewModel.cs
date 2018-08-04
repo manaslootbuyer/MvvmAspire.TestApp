@@ -14,7 +14,7 @@ namespace TestApp.ViewModel
         async void GoToNextPage()
         {
             GoToNextPageCommand.CanRun = false;
-            await Navigation.PushAsync<TestViewModel>();
+            await Navigation.PushAsync<AboutViewModel>();
             GoToNextPageCommand.CanRun = true;
 
         }

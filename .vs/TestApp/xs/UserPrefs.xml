@@ -1,15 +1,19 @@
-﻿<Properties StartupConfiguration="{D84285BD-B156-4EF0-8B63-33F2C0D1F3B5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestApp.Android/MainActivity.cs">
+﻿<Properties StartupConfiguration="{A117756D-C736-474A-A748-3AFFA653AC05}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestApp/ViewModels/TestViewModel.cs">
     <Files>
-      <File FileName="TestApp.Android/MainActivity.cs" Line="21" Column="33" />
+      <File FileName="TestApp.Android/MainActivity.cs" Line="22" Column="67" />
       <File FileName="TestApp.iOS/AppDelegate.cs" Line="25" Column="10" />
+      <File FileName="TestApp/ViewModels/TestViewModel.cs" Line="17" Column="54" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/edriandragneel/Desktop/MvvmAspireCodeSample/TestApp/TestApp/ViewModels/TestViewModel.cs" relfile="TestApp/ViewModels/TestViewModel.cs" line="17" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.TestApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.184CA339-52AE-44C8-8BCF-8DC8CD3E4917" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.TestApp.Android PreferredExecutionTarget="Android.02157df295cce338" />
 </Properties>
