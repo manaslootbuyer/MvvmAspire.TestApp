@@ -12,12 +12,8 @@ namespace TestApp.ViewModel
 {
     public class AboutViewModel : AppViewModel
     {
-
-       
         public AboutViewModel()
         {
         }
-    
-       
     }
 }
