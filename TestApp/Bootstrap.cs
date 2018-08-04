@@ -13,6 +13,7 @@ namespace TestApp {
         public static UnityDependencyResolver Init (bool forBackgroundService = false) {
             container = new UnityContainer ();
             var resolver = new UnityDependencyResolver (container);
+            //container.RegisterType<IFontService, FontService>(new ContainerControlledLifetimeManager());
 
             if (!forBackgroundService) {
                 Resolver.SetResolver (resolver);

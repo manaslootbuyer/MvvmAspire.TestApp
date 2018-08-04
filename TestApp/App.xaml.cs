@@ -14,7 +14,7 @@ namespace TestApp
             InitializeComponent();
             var navigation = Resolver.Get<MvvmAspire.Services.INavigation>();
             MainPage = ((MvvmAspire.Services.XamarinFormsNavigation)navigation).NavigationPage;
-            MainPage.SetValue(NavigationPage.BarTextColorProperty, Color.Black);
+            MainPage.SetValue(NavigationPage.BarTextColorProperty, Color.White);
         }
 
         protected override void OnStart()
