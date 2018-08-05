@@ -9,3 +9,4 @@ using Xamarin.Forms;
 [assembly: ExportRenderer(typeof(MvvmAspire.Controls.ScrollView), typeof(MvvmAspire.Controls.ScrollViewRenderer))]
 [assembly: ExportRenderer(typeof(MvvmAspire.Controls.HorizontalScrollView), typeof(MvvmAspire.Controls.HorizontalScrollView))]
 [assembly: ExportRenderer(typeof(MvvmAspire.Controls.RoundedButton), typeof(MvvmAspire.Controls.RoundedButtonRenderer))]
+[assembly: ExportRenderer(typeof(MvvmAspire.Controls.VideoView), typeof(MvvmAspire.Controls.VideoViewRenderer))]

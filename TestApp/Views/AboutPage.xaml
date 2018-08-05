@@ -1,37 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ContentPage 
-    xmlns="http://xamarin.com/schemas/2014/forms"
-     xmlns:mvvmaspire="clr-namespace:MvvmAspire.Controls;assembly=MvvmAspire"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TestApp.Views.AboutPage"  Title="Mvvm Aspire Controls">
-
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:mvvmaspire="clr-namespace:MvvmAspire.Controls;assembly=MvvmAspire" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TestApp.Views.AboutPage" Title="Mvvm Aspire Controls">
     <ScrollView Padding="20">
-      <StackLayout Spacing="20">
-
-        <StackLayout Orientation="Vertical">
-                <mvvmaspire:Label Text="MvvmAspire.Controls.Label" TextColor="Blue"></mvvmaspire:Label>
-                <mvvmaspire:Label Text="The quick brown fox jumps over the lazy dog" TextColor="Black"></mvvmaspire:Label>
-        </StackLayout>
-
-           <StackLayout Orientation="Vertical">
-                <mvvmaspire:Label Text="MvvmAspire.Controls.Entry" TextColor="Blue"/>
-                <mvvmaspire:Entry Placeholder="Sample Place Holder" TextInputType="Password" IsPassword="true" PlaceholderColor="Gray" TextColor="Black"/>
-        </StackLayout>
-      
-
-               <StackLayout Orientation="Vertical">
-                <mvvmaspire:Label Text="MvvmAspire.Controls.AnimatedLabel" TextColor="Blue"></mvvmaspire:Label>
-                <mvvmaspire:AnimatedLabel Text="Press to show alert"  TextColor="Black">
-
-
-                        <mvvmaspire:AnimatedLabel.GestureRecognizers>
-                            <TapGestureRecognizer Command="{Binding ShowAlertCommand}" />
-                        </mvvmaspire:AnimatedLabel.GestureRecognizers>
-
+        <StackLayout Spacing="20">
+            <StackLayout Orientation="Vertical">
+                <mvvmaspire:Label Text="MvvmAspire.Controls.Label" TextColor="Blue">
+                </mvvmaspire:Label>
+                <mvvmaspire:Label Text="The quick brown fox jumps over the lazy dog" TextColor="Black">
+                </mvvmaspire:Label>
+            </StackLayout>
+            <StackLayout Orientation="Vertical">
+                <mvvmaspire:Label Text="MvvmAspire.Controls.Entry" TextColor="Blue" />
+                <mvvmaspire:Entry Placeholder="Sample Place Holder" TextInputType="Password" IsPassword="true" PlaceholderColor="Gray" TextColor="Black" />
+            </StackLayout>
+            <StackLayout Orientation="Vertical">
+                <mvvmaspire:Label Text="MvvmAspire.Controls.AnimatedLabel" TextColor="Blue">
+                </mvvmaspire:Label>
+                <mvvmaspire:AnimatedLabel Text="Press to show alert" TextColor="Black">
+                    <mvvmaspire:AnimatedLabel.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding ShowAlertCommand}" />
+                    </mvvmaspire:AnimatedLabel.GestureRecognizers>
                 </mvvmaspire:AnimatedLabel>
+            </StackLayout>
+            <StackLayout Orientation="Vertical">
+                <mvvmaspire:Label Text="MvvmAspire.Controls.VideoView" TextColor="Blue" />
+                <mvvmaspire:VideoView IsFromUrl="true" HeightRequest="200" ShowControl="true" HorizontalOptions="FillAndExpand" Source="https://www.w3schools.com/html/mov_bbb.mp4" />
+            </StackLayout>
         </StackLayout>
-
-
-    </StackLayout>
     </ScrollView>
-  
 </ContentPage>

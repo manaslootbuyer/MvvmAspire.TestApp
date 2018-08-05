@@ -13,4 +13,4 @@
 [assembly: ExportRenderer(typeof(MvvmAspire.Controls.Label), typeof(MvvmAspire.Controls.LabelControlRenderer))]
 [assembly: ExportRenderer (typeof(MvvmAspire.Controls.Button), typeof (MvvmAspire.Controls.ButtonControlRenderer))]
 [assembly: ExportRenderer(typeof(MvvmAspire.Controls.AnimatedLabel), typeof(MvvmAspire.Controls.AnimatedLabelRenderer))]
-
+[assembly: ExportRenderer(typeof(MvvmAspire.Controls.VideoView), typeof(MvvmAspire.Controls.VideoViewRenderer))]
