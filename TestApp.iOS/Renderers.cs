@@ -11,6 +11,7 @@
 [assembly: ExportRenderer(typeof(MvvmAspire.Controls.RoundedBoxView), typeof(MvvmAspire.Controls.RoundedBoxViewRenderer))]
 [assembly: ExportRenderer(typeof(MvvmAspire.Controls.CheckBox), typeof(MvvmAspire.Controls.CheckBoxRenderer))]
 [assembly: ExportRenderer(typeof(MvvmAspire.Controls.Label), typeof(MvvmAspire.Controls.LabelControlRenderer))]
-[assembly: ExportRenderer (typeof(MvvmAspire.Controls.Button), typeof (MvvmAspire.Controls.ButtonControlRenderer))]
+[assembly: ExportRenderer(typeof(MvvmAspire.Controls.Button), typeof (MvvmAspire.Controls.ButtonControlRenderer))]
 [assembly: ExportRenderer(typeof(MvvmAspire.Controls.AnimatedLabel), typeof(MvvmAspire.Controls.AnimatedLabelRenderer))]
 [assembly: ExportRenderer(typeof(MvvmAspire.Controls.VideoView), typeof(MvvmAspire.Controls.VideoViewRenderer))]
+[assembly: ExportRenderer(typeof(MvvmAspire.Controls.RoundedButton), typeof(MvvmAspire.Controls.RoundedButtonRenderer))]

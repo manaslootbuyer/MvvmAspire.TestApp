@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:mvvmaspire="clr-namespace:MvvmAspire.Controls;assembly=MvvmAspire" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TestApp.Views.AboutPage" Title="Mvvm Aspire Controls">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:res="clr-namespace:TestApp.Resources;assembly=TestApp" xmlns:mvvmaspire="clr-namespace:MvvmAspire.Controls;assembly=MvvmAspire" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TestApp.Views.AboutPage" Title="Mvvm Aspire Controls">
     <ScrollView Padding="20">
         <StackLayout Spacing="20">
             <StackLayout Orientation="Vertical">
@@ -15,7 +15,7 @@
             <StackLayout Orientation="Vertical">
                 <mvvmaspire:Label Text="MvvmAspire.Controls.AnimatedLabel" TextColor="Blue">
                 </mvvmaspire:Label>
-                <mvvmaspire:AnimatedLabel Text="Press to show alert" TextColor="Black">
+                <mvvmaspire:AnimatedLabel Text="Click me to show alert" TextColor="Black">
                     <mvvmaspire:AnimatedLabel.GestureRecognizers>
                         <TapGestureRecognizer Command="{Binding ShowAlertCommand}" />
                     </mvvmaspire:AnimatedLabel.GestureRecognizers>
@@ -25,6 +25,25 @@
                 <mvvmaspire:Label Text="MvvmAspire.Controls.VideoView" TextColor="Blue" />
                 <mvvmaspire:VideoView IsFromUrl="true" HeightRequest="200" ShowControl="true" HorizontalOptions="FillAndExpand" Source="https://www.w3schools.com/html/mov_bbb.mp4" />
             </StackLayout>
+
+            <StackLayout>
+
+                 <mvvmaspire:RoundedButton Margin="0, 12, 0, 0"
+                        Command="{Binding ShowAlertCommand}"
+                        HorizontalOptions="FillAndExpand"
+                        HeightRequest="60"
+                        Corner="5"
+                        Text="Sample Button"
+                        TextColor="White"
+                        GradientColor="{x:Static res:Colors.GradientGreenButton}"
+                        DisabledTextColor="{x:Static res:Colors.TextDisabled}"
+                        DisableColor="{x:Static res:Colors.GradientButtonDisabled}"
+                        HoverColor="{x:Static res:Colors.GradientGreenButton}"
+                        PressedColor="{x:Static res:Colors.GradientGreenPressed}">
+                </mvvmaspire:RoundedButton>
+
+            </StackLayout>
+            
         </StackLayout>
     </ScrollView>
 </ContentPage>
