@@ -5,7 +5,7 @@ namespace TestApp.ViewModel
     public class TestViewModel : AppViewModel
     {
         public RelayCommand GoToNextPageCommand { get; set; }
-       
+        public RelayCommand GoToTestRepositoryCommand { get; set; }
         public string _buttonName;
         public string ButtonName
         {
@@ -16,7 +16,8 @@ namespace TestApp.ViewModel
         public TestViewModel()
         {
             GoToNextPageCommand = new RelayCommand(GoToNextPage);
-            ButtonName = "Go To Next Page";
+            GoToTestRepositoryCommand= new RelayCommand(GoToTestRepository);
+            ButtonName = "MVVM Controls";
         }
 
         async void GoToNextPage()
@@ -24,6 +25,14 @@ namespace TestApp.ViewModel
             GoToNextPageCommand.CanRun = false;
             await Navigation.PushAsync<AboutViewModel>();
             GoToNextPageCommand.CanRun = true;
+
+        }
+
+        async void GoToTestRepository()
+        {
+            GoToTestRepositoryCommand.CanRun = false;
+            await Navigation.PushAsync<RepositoryTestViewModel>();
+            GoToTestRepositoryCommand.CanRun = true;
 
         }
 	}

@@ -11,6 +11,8 @@ namespace TestApp.Views
         public TestPage()
         {
             InitializeComponent();
+            Title = "MVVM ASPIRE";
+            NavigationPage.SetBackButtonTitle(this, "Back");
         }
     }
 }

@@ -2,9 +2,12 @@
 using MvvmAspire;
 using MvvmAspire.Services;
 using MvvmAspire.Unity;
+using TestApp.Repository;
+using TestApp.Repository.Interfaces;
 using TestApp.ViewModel;
 using TestApp.Views;
 using Unity;
+using Unity.Lifetime;
 
 namespace TestApp {
     public static class AppBootstrap {
@@ -13,7 +16,7 @@ namespace TestApp {
         public static UnityDependencyResolver Init (bool forBackgroundService = false) {
             container = new UnityContainer ();
             var resolver = new UnityDependencyResolver (container);
-            //container.RegisterType<IFontService, FontService>(new ContainerControlledLifetimeManager());
+            container.RegisterType<IUserRepository, UserRepository>(new ContainerControlledLifetimeManager());
 
             if (!forBackgroundService) {
                 Resolver.SetResolver (resolver);
@@ -39,6 +42,7 @@ namespace TestApp {
             var navigation = new XamarinFormsNavigation (() => App.Current);
             navigation.Register<TestViewModel, TestPage>();
             navigation.Register<AboutViewModel, AboutPage>();
+            navigation.Register<RepositoryTestViewModel, MarcelloDbPage>();
             return navigation;
         }
 

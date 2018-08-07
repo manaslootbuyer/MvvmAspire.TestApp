@@ -71,6 +71,7 @@
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Renderers.cs" />
+    <Compile Include="Services\MarcelloService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
@@ -139,6 +140,9 @@
     <PackageReference Include="MvvmAspire">
       <Version>2.0.3</Version>
     </PackageReference>
+    <PackageReference Include="MarcelloDB">
+      <Version>1.0.8</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
@@ -146,5 +150,8 @@
       <Project>{C2F13E5E-1502-43A9-8F56-652935DA199E}</Project>
       <Name>TestApp</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
   </ItemGroup>
 </Project>

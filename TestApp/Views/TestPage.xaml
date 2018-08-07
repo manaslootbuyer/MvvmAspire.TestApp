@@ -3,6 +3,13 @@
    xmlns:mvvmaspire="clr-namespace:MvvmAspire.Controls;assembly=MvvmAspire"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TestApp.Views.TestPage">
     <Grid>
-       <mvvmaspire:Button Text="{Binding ButtonName}" TextColor="Blue" Command="{Binding GoToNextPageCommand}"/>
+
+
+        <StackLayout VerticalOptions="Start" Margin="20,50,20,0" HorizontalOptions="FillAndExpand">
+            <mvvmaspire:RoundedButton Text="{Binding ButtonName}" BorderColor="Blue" TextColor="Blue" BorderWidth="1" Command="{Binding GoToNextPageCommand}"/>
+            <mvvmaspire:RoundedButton Text="Sample Repository"  BorderColor="Green" TextColor="Green" BorderWidth="1" Command="{Binding GoToTestRepositoryCommand}"/>  
+        </StackLayout>
+   
+        
     </Grid>
 </ContentPage>

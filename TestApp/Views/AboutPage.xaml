@@ -27,7 +27,8 @@
             </StackLayout>
 
             <StackLayout>
-
+                  <mvvmaspire:Label Text="MvvmAspire.Controls.RoundedButton" TextColor="Blue" />
+          
                  <mvvmaspire:RoundedButton Margin="0, 12, 0, 0"
                         Command="{Binding ShowAlertCommand}"
                         HorizontalOptions="FillAndExpand"
@@ -41,6 +42,13 @@
                         HoverColor="{x:Static res:Colors.GradientGreenButton}"
                         PressedColor="{x:Static res:Colors.GradientGreenPressed}">
                 </mvvmaspire:RoundedButton>
+
+            </StackLayout>
+
+
+               <StackLayout>
+                  <mvvmaspire:Label Text="MvvmAspire.Controls.ImageView" TextColor="Blue" />
+                  <mvvmaspire:Image Source="{Binding HeroImageUrl}" Aspect="AspectFill" HeightRequest="200"  WidthRequest="200" />
 
             </StackLayout>
             

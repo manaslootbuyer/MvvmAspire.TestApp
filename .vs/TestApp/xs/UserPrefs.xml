@@ -1,10 +1,36 @@
 ﻿<Properties StartupConfiguration="{D84285BD-B156-4EF0-8B63-33F2C0D1F3B5}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestApp/Views/MarcelloDbPage.xaml.cs">
+    <Files>
+      <File FileName="TestApp/ViewModels/RepositoryTestViewModel.cs" Line="23" Column="10" />
+      <File FileName="TestApp/ViewModels/TestViewModel.cs" Line="33" Column="38" />
+      <File FileName="TestApp/Views/AboutPage.xaml" Line="57" Column="15" />
+      <File FileName="TestApp/Views/TestPage.xaml" Line="10" Column="162" />
+      <File FileName="TestApp/Views/TestPage.xaml.cs" Line="15" Column="1" />
+      <File FileName="TestApp/Views/MarcelloDbPage.xaml.cs" Line="14" Column="39" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TestApp" expanded="True">
-            <Node name="TestApp" expanded="True" />
+            <Node name="TestApp" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Repository" expanded="True">
+                <Node name="Interface" expanded="True" />
+              </Node>
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="MarcelloDbPage.xaml" expanded="True">
+                  <Node name="MarcelloDbPage.xaml.cs" selected="True" />
+                </Node>
+                <Node name="TestPage.xaml" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="TestApp.Android" expanded="True">
+              <Node name="Services" expanded="True" />
+            </Node>
+            <Node name="TestApp.iOS" expanded="True">
+              <Node name="Services" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -17,5 +43,5 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.TestApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.184CA339-52AE-44C8-8BCF-8DC8CD3E4917" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.TestApp.Android PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
+  <MonoDevelop.Ide.ItemProperties.TestApp.Android PreferredExecutionTarget="Android.02157df295cce338" />
 </Properties>

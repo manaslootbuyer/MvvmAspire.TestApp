@@ -14,10 +14,24 @@ namespace TestApp.ViewModel
     {
 
         public RelayCommand ShowAlertCommand { get; set; }
+
+        public string _heroImageUrl;
+        public string HeroImageUrl
+        {
+            get => _heroImageUrl;
+            set => SetProperty(ref _heroImageUrl, value);
+        }
+
         public AboutViewModel()
         {
-
             ShowAlertCommand = new RelayCommand(ShowAlert);
+        }
+
+
+        public override void Init()
+        {
+            base.Init();
+            HeroImageUrl = "https://i.stack.imgur.com/GsDIl.jpg";
         }
 
         async void ShowAlert()
