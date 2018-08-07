@@ -1,36 +1,28 @@
-﻿<Properties StartupConfiguration="{D84285BD-B156-4EF0-8B63-33F2C0D1F3B5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestApp/Views/MarcelloDbPage.xaml.cs">
+﻿<Properties StartupConfiguration="{A117756D-C736-474A-A748-3AFFA653AC05}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestApp/Views/AboutPage.xaml">
     <Files>
       <File FileName="TestApp/ViewModels/RepositoryTestViewModel.cs" Line="23" Column="10" />
       <File FileName="TestApp/ViewModels/TestViewModel.cs" Line="33" Column="38" />
-      <File FileName="TestApp/Views/AboutPage.xaml" Line="57" Column="15" />
-      <File FileName="TestApp/Views/TestPage.xaml" Line="10" Column="162" />
+      <File FileName="TestApp/Views/AboutPage.xaml" Line="2" Column="105" />
+      <File FileName="TestApp/Views/TestPage.xaml" Line="6" Column="345" />
       <File FileName="TestApp/Views/TestPage.xaml.cs" Line="15" Column="1" />
-      <File FileName="TestApp/Views/MarcelloDbPage.xaml.cs" Line="14" Column="39" />
+      <File FileName="TestApp/Views/MarcelloDbPage.xaml.cs" Line="14" Column="41" />
+      <File FileName="TestApp.Android/ExportRenderer.cs" Line="12" Column="113" />
+      <File FileName="TestApp/Resources/Colors.cs" Line="11" Column="58" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="TestApp" expanded="True">
             <Node name="TestApp" expanded="True">
-              <Node name="Models" expanded="True" />
-              <Node name="Repository" expanded="True">
-                <Node name="Interface" expanded="True" />
-              </Node>
+              <Node name="Resources" expanded="True" />
               <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="MarcelloDbPage.xaml" expanded="True">
-                  <Node name="MarcelloDbPage.xaml.cs" selected="True" />
-                </Node>
-                <Node name="TestPage.xaml" expanded="True" />
+                <Node name="AboutPage.xaml" selected="True" />
               </Node>
+              <Node name="App.xaml" expanded="True" />
             </Node>
-            <Node name="TestApp.Android" expanded="True">
-              <Node name="Services" expanded="True" />
-            </Node>
-            <Node name="TestApp.iOS" expanded="True">
-              <Node name="Services" expanded="True" />
-            </Node>
+            <Node name="TestApp.Android" expanded="True" />
           </Node>
         </State>
       </Pad>

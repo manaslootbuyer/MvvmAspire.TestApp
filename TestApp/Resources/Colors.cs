@@ -8,5 +8,6 @@ namespace TestApp.Resources
         public static readonly string GradientButtonDisabled = "#667689 0%, #667689 100%";
         public static readonly string GradientGreenButton = "#49840D 0%, #49840D 100%";
         public static readonly string GradientGreenPressed = "#8049840D 0%, #8049840D 100%";
+        public static readonly string GradientWhiteButton = "#ffffff 0%, #ffffff 100%";
     }
 }

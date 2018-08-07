@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-   xmlns:mvvmaspire="clr-namespace:MvvmAspire.Controls;assembly=MvvmAspire"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TestApp.Views.TestPage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:res="clr-namespace:TestApp.Resources;assembly=TestApp" xmlns:mvvmaspire="clr-namespace:MvvmAspire.Controls;assembly=MvvmAspire" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TestApp.Views.TestPage">
     <Grid>
-
-
         <StackLayout VerticalOptions="Start" Margin="20,50,20,0" HorizontalOptions="FillAndExpand">
-            <mvvmaspire:RoundedButton Text="{Binding ButtonName}" BorderColor="Blue" TextColor="Blue" BorderWidth="1" Command="{Binding GoToNextPageCommand}"/>
-            <mvvmaspire:RoundedButton Text="Sample Repository"  BorderColor="Green" TextColor="Green" BorderWidth="1" Command="{Binding GoToTestRepositoryCommand}"/>  
+            <mvvmaspire:RoundedButton Text="{Binding ButtonName}" GradientColor="{x:Static res:Colors.GradientWhiteButton}" DisabledTextColor="{x:Static res:Colors.TextDisabled}" DisableColor="{x:Static res:Colors.GradientWhiteButton}" HoverColor="{x:Static res:Colors.GradientWhiteButton}" PressedColor="{x:Static res:Colors.GradientWhiteButton}" BorderColor="Blue" TextColor="Blue" BorderWidth="1" Command="{Binding GoToNextPageCommand}" />
+            <mvvmaspire:RoundedButton Text="Sample Repository" GradientColor="{x:Static res:Colors.GradientWhiteButton}" DisabledTextColor="{x:Static res:Colors.TextDisabled}" DisableColor="{x:Static res:Colors.GradientWhiteButton}" HoverColor="{x:Static res:Colors.GradientWhiteButton}" PressedColor="{x:Static res:Colors.GradientWhiteButton}" BorderColor="Green" TextColor="Green" BorderWidth="1" Command="{Binding GoToTestRepositoryCommand}" />
         </StackLayout>
-   
-        
     </Grid>
 </ContentPage>
