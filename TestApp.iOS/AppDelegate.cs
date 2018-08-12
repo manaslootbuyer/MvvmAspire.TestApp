@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using Foundation;
 using MvvmAspire;
+using MvvmAspire.Controls;
+using TestApp.Helpers;
 using UIKit;
 namespace TestApp.iOS
 {
@@ -24,6 +26,7 @@ namespace TestApp.iOS
             global::Xamarin.Forms.Forms.Init();
             AppBootstrap.Init();
             Bootstrap.Init();
+            AppHelper.FastCellCache = FastCellCache.Instance;
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

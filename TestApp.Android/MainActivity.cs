@@ -7,6 +7,8 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 using MvvmAspire;
+using MvvmAspire.Droid.Controls;
+using TestApp.Helpers;
 
 namespace TestApp.Droid
 {
@@ -17,7 +19,7 @@ namespace TestApp.Droid
         {
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
-
+            AppHelper.FastCellCache = FastCellCache.Instance;
             base.OnCreate(bundle);
 
             MvvmAspire.Controls.UIHelper.Drawable = typeof(TestApp.Droid.Resource.Drawable);

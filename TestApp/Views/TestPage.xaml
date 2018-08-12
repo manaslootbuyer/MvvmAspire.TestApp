@@ -4,6 +4,7 @@
         <StackLayout VerticalOptions="Start" Margin="20,50,20,0" HorizontalOptions="FillAndExpand">
             <mvvmaspire:RoundedButton Text="{Binding ButtonName}" GradientColor="{x:Static res:Colors.GradientWhiteButton}" DisabledTextColor="{x:Static res:Colors.TextDisabled}" DisableColor="{x:Static res:Colors.GradientWhiteButton}" HoverColor="{x:Static res:Colors.GradientWhiteButton}" PressedColor="{x:Static res:Colors.GradientWhiteButton}" BorderColor="Blue" TextColor="Blue" BorderWidth="1" Command="{Binding GoToNextPageCommand}" />
             <mvvmaspire:RoundedButton Text="Sample Repository" GradientColor="{x:Static res:Colors.GradientWhiteButton}" DisabledTextColor="{x:Static res:Colors.TextDisabled}" DisableColor="{x:Static res:Colors.GradientWhiteButton}" HoverColor="{x:Static res:Colors.GradientWhiteButton}" PressedColor="{x:Static res:Colors.GradientWhiteButton}" BorderColor="Green" TextColor="Green" BorderWidth="1" Command="{Binding GoToTestRepositoryCommand}" />
+            <mvvmaspire:RoundedButton Text="ListView Caching" GradientColor="{x:Static res:Colors.GradientWhiteButton}" DisabledTextColor="{x:Static res:Colors.TextDisabled}" DisableColor="{x:Static res:Colors.GradientWhiteButton}" HoverColor="{x:Static res:Colors.GradientWhiteButton}" PressedColor="{x:Static res:Colors.GradientWhiteButton}" BorderColor="Red" TextColor="Red" BorderWidth="1" Command="{Binding GoToListViewCommand}" />
         </StackLayout>
     </Grid>
 </ContentPage>

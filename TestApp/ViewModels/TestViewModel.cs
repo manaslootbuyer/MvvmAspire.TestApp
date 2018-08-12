@@ -1,4 +1,5 @@
 ﻿using MvvmAspire;
+using MvvmAspire.ViewModel;
 using Xamarin.Forms;
 namespace TestApp.ViewModel
 {
@@ -6,6 +7,7 @@ namespace TestApp.ViewModel
     {
         public RelayCommand GoToNextPageCommand { get; set; }
         public RelayCommand GoToTestRepositoryCommand { get; set; }
+        public RelayCommand GoToListViewCommand { get; set; }
         public string _buttonName;
         public string ButtonName
         {
@@ -16,7 +18,8 @@ namespace TestApp.ViewModel
         public TestViewModel()
         {
             GoToNextPageCommand = new RelayCommand(GoToNextPage);
-            GoToTestRepositoryCommand= new RelayCommand(GoToTestRepository);
+            GoToListViewCommand= new RelayCommand(GoToListView);
+            GoToTestRepositoryCommand = new RelayCommand(GoToTestRepository);
             ButtonName = "MVVM Controls";
         }
 
@@ -24,6 +27,14 @@ namespace TestApp.ViewModel
         {
             GoToNextPageCommand.CanRun = false;
             await Navigation.PushAsync<AboutViewModel>();
+            GoToNextPageCommand.CanRun = true;
+
+        }
+
+        async void GoToListView()
+        {
+            GoToNextPageCommand.CanRun = false;
+            await Navigation.PushAsync<ListViewWithCacheViewModel>();
             GoToNextPageCommand.CanRun = true;
 
         }

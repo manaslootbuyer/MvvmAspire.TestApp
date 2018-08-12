@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mvvmaspire:FastCell xmlns="http://xamarin.com/schemas/2014/forms" xmlns:res="clr-namespace:TestApp.Resources;assembly=TestApp" xmlns:mvvmaspire="clr-namespace:MvvmAspire.Controls;assembly=MvvmAspire" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TestApp.ViewCell.UserViewCell">
+    <mvvmaspire:FastCell.View>
+        <Grid Padding="15">
+            <StackLayout Orientation="Horizontal" Spacing="10">
+                <mvvmaspire:Image Source="{Binding ImageUrl}" Aspect="Fill" HeightRequest="72" WidthRequest="72" HorizontalOptions="Center" VerticalOptions="Center" CornerRadius="5" />
+                <StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <mvvmaspire:Label FontAttributes="Bold" Text="{Binding FirstName}" TextColor="Black" />
+                        <mvvmaspire:Label FontAttributes="Bold" Text="{Binding LastName}" TextColor="Gray" />
+                    </StackLayout>
+                    <mvvmaspire:Label Text="{Binding Address}" TextColor="Blue" />
+                </StackLayout>
+            </StackLayout>
+        </Grid>
+    </mvvmaspire:FastCell.View>
+</mvvmaspire:FastCell>

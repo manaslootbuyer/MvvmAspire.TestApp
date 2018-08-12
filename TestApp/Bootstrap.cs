@@ -2,6 +2,7 @@
 using MvvmAspire;
 using MvvmAspire.Services;
 using MvvmAspire.Unity;
+using MvvmAspire.ViewModel;
 using TestApp.Repository;
 using TestApp.Repository.Interfaces;
 using TestApp.ViewModel;
@@ -43,6 +44,7 @@ namespace TestApp {
             navigation.Register<TestViewModel, TestPage>();
             navigation.Register<AboutViewModel, AboutPage>();
             navigation.Register<RepositoryTestViewModel, MarcelloDbPage>();
+            navigation.Register<ListViewWithCacheViewModel, ListViewWithCache>();
             return navigation;
         }
 
