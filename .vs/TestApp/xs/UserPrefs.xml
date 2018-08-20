@@ -1,20 +1,21 @@
-﻿<Properties StartupConfiguration="{D84285BD-B156-4EF0-8B63-33F2C0D1F3B5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestApp/ViewCell/UserViewCell.xaml.cs">
+﻿<Properties StartupConfiguration="{27440149-F189-436F-91BA-C46D380FB5F5}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestApp.Mac/AppDelegate.cs">
     <Files>
-      <File FileName="TestApp/ViewModels/ListViewWithCacheViewModel.cs" Line="29" Column="62" />
-      <File FileName="TestApp/Helpers/AppHelper.cs" Line="11" Column="1" />
-      <File FileName="TestApp.iOS/AppDelegate.cs" Line="7" Column="14" />
-      <File FileName="TestApp.Android/MainActivity.cs" Line="22" Column="62" />
-      <File FileName="TestApp/ViewCell/UserViewCell.xaml" Line="17" Column="23" />
-      <File FileName="TestApp/ViewCell/UserViewCell.xaml.cs" Line="23" Column="1" />
+      <File FileName="TestApp/Bootstrap.cs" Line="49" Column="1" />
+      <File FileName="TestApp/Views/TestPage.xaml" Line="10" Column="15" />
+      <File FileName="TestApp/ViewModels/TestViewModel.cs" Line="25" Column="9" />
+      <File FileName="TestApp.Mac/Info.plist" />
+      <File FileName="TestApp.Mac/Main.cs" Line="15" Column="1" />
+      <File FileName="TestApp.Mac/AppDelegate.cs" Line="44" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.TestApp.Mac PreferredExecutionTarget="Test1" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.TestApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.184CA339-52AE-44C8-8BCF-8DC8CD3E4917" />
+  <MonoDevelop.Ide.ItemProperties.TestApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.184CA339-52AE-44C8-8BCF-8DC8CD3E4917" automaticSigning="False" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.TestApp.Android PreferredExecutionTarget="Android.02157df295cce338" />
 </Properties>

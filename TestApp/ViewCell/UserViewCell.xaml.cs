@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using MvvmAspire.Controls;
 using Xamarin.Forms;
 
-namespace TestApp.ViewCell
+namespace TestApp.Adapter
 {
     public partial class UserViewCell : FastCell
     {

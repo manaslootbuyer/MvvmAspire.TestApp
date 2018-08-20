@@ -10,6 +10,7 @@ namespace TestApp.Views
         public ListViewWithCache()
         {
             InitializeComponent();
+
         }
     }
 }

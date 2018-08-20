@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:res="clr-namespace:TestApp.Resources;assembly=TestApp" xmlns:mvvmaspire="clr-namespace:MvvmAspire.Controls;assembly=MvvmAspire" xmlns:app="clr-namespace:TestApp.Adapter;assembly=TestApp" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TestApp.Views.NormalListView">
+    <ContentPage.Content>
+        <mvvmaspire:ListView ItemsSource="{Binding UserList}" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" RowHeight="100" SeparatorVisibility="Default" SeparatorColor="#d3d3d3"  EmptyTextColor="Gray">
+            <mvvmaspire:ListView.ItemTemplate>
+                <DataTemplate>
+                    <app:MacUserViewCell />
+                </DataTemplate>
+            </mvvmaspire:ListView.ItemTemplate>
+        </mvvmaspire:ListView>
+    </ContentPage.Content>
+</ContentPage>

@@ -44,7 +44,8 @@ namespace TestApp {
             navigation.Register<TestViewModel, TestPage>();
             navigation.Register<AboutViewModel, AboutPage>();
             navigation.Register<RepositoryTestViewModel, MarcelloDbPage>();
-            navigation.Register<ListViewWithCacheViewModel, ListViewWithCache>();
+            if(Xamarin.Forms.Device.RuntimePlatform == Xamarin.Forms.Device.macOS) navigation.Register<ListViewWithCacheViewModel, NormalListView>();
+            else navigation.Register<ListViewWithCacheViewModel, ListViewWithCache>();
             return navigation;
         }
 

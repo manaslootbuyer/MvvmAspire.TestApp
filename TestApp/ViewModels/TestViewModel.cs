@@ -26,9 +26,10 @@ namespace TestApp.ViewModel
         async void GoToNextPage()
         {
             GoToNextPageCommand.CanRun = false;
-            await Navigation.PushAsync<AboutViewModel>();
-            GoToNextPageCommand.CanRun = true;
 
+            if (Xamarin.Forms.Device.RuntimePlatform == Device.macOS) await Page.DisplayAlert(null, "Mac OS Controls is not yet supported! Stay tuned for more updates", "Ok");
+            else await Navigation.PushAsync<AboutViewModel>();
+            GoToNextPageCommand.CanRun = true;
         }
 
         async void GoToListView()
