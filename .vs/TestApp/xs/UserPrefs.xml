@@ -1,21 +1,38 @@
-﻿<Properties StartupConfiguration="{27440149-F189-436F-91BA-C46D380FB5F5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="TestApp.Mac/AppDelegate.cs">
+﻿<Properties StartupConfiguration="{A117756D-C736-474A-A748-3AFFA653AC05}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TestApp.Android/MainActivity.cs">
     <Files>
-      <File FileName="TestApp/Bootstrap.cs" Line="49" Column="1" />
+      <File FileName="TestApp.iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="TestApp/ViewCell/UserViewCell.xaml" Line="17" Column="23" />
+      <File FileName="TestApp/Views/ListViewWithCache.xaml" Line="12" Column="15" />
+      <File FileName="TestApp/ViewCell/UserViewCell.xaml.cs" Line="18" Column="1" />
       <File FileName="TestApp/Views/TestPage.xaml" Line="10" Column="15" />
-      <File FileName="TestApp/ViewModels/TestViewModel.cs" Line="25" Column="9" />
-      <File FileName="TestApp.Mac/Info.plist" />
-      <File FileName="TestApp.Mac/Main.cs" Line="15" Column="1" />
-      <File FileName="TestApp.Mac/AppDelegate.cs" Line="44" Column="1" />
+      <File FileName="../../mvvmaspire/MvvmAspire.iOS/Controls/FastCellRenderer.cs" Line="129" Column="27" />
+      <File FileName="TestApp.Android/Properties/AndroidManifest.xml" Line="7" Column="12" />
+      <File FileName="TestApp/Bootstrap.cs" Line="47" Column="1" />
+      <File FileName="TestApp.Android/MainActivity.cs" Line="30" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TestApp" expanded="True">
+            <Node name="TestApp" expanded="True" />
+            <Node name="TestApp.Android" expanded="True">
+              <Node name="MainActivity.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.TestApp.Mac PreferredExecutionTarget="Test1" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.TestApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.184CA339-52AE-44C8-8BCF-8DC8CD3E4917" automaticSigning="False" />
+  <MonoDevelop.Ide.ItemProperties.TestApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.184CA339-52AE-44C8-8BCF-8DC8CD3E4917" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.TestApp.Android PreferredExecutionTarget="Android.02157df295cce338" />
+  <MonoDevelop.Ide.ItemProperties.TestApp.Android PreferredExecutionTarget="Android.Nexus_5X_API_27_x86" />
+  <DisabledProjects>
+    <String>TestApp.Mac/TestApp.Mac.csproj</String>
+  </DisabledProjects>
 </Properties>

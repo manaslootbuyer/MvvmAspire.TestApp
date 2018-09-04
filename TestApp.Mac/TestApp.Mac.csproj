@@ -86,9 +86,6 @@
     <Reference Include="Plugin.Settings">
       <HintPath>..\packages\Xam.Plugins.Settings.3.1.1\lib\Xamarin.Mac20\Plugin.Settings.dll</HintPath>
     </Reference>
-    <Reference Include="MvvmAspire">
-      <HintPath>..\packages\MvvmAspire.2.1.3\lib\netstandard2.0\MvvmAspire.dll</HintPath>
-    </Reference>
     <Reference Include="MarcelloDB">
       <HintPath>..\packages\MarcelloDB.1.0.8\lib\Xamarin.Mac\MarcelloDB.dll</HintPath>
     </Reference>
@@ -136,6 +133,10 @@
     <ProjectReference Include="..\TestApp\TestApp.csproj">
       <Project>{C2F13E5E-1502-43A9-8F56-652935DA199E}</Project>
       <Name>TestApp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\mvvmaspire\MvvmAspire\MvvmAspire.csproj">
+      <Project>{105E6393-31D0-4235-BB60-1D6746A8CC87}</Project>
+      <Name>MvvmAspire</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Mac\Xamarin.Mac.CSharp.targets" />

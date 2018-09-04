@@ -26,11 +26,10 @@ namespace TestApp.Droid
             MvvmAspire.Controls.UIHelper.Layout = typeof(Resource.Layout);
             MvvmAspire.Controls.UIHelper.Id = typeof(Resource.Id);
             MvvmAspire.Controls.UIHelper.Context = this;
-
+            global::Xamarin.Forms.Forms.Init(this, bundle);
             AppBootstrap.Init();
             Bootstrap.Init(this);
 
-            global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());
         }
     }
